@@ -4,5 +4,5 @@ module.exports = function(source) {
   this.cacheable && this.cacheable();
   var value = toml.parse(source);
   this.value = [value];
-  return "module.exports    = " + JSON.stringify(value, undefined, "\t");
+  return JSON.stringify(value, undefined, "\t");
 };
