@@ -1,26 +1,26 @@
 {
-  "name": "toml-loader",
+  "name": "toml-raw-loader",
   "version": "1.0.0",
-  "description": "TOML loader for webpack",
+  "description": "TOML loader for webpack returns raw JSON",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KyleAMathews/toml-loader.git"
+    "url": "git+https://github.com/let4be/toml-raw-loader.git"
   },
   "keywords": [
     "webpack",
     "webpack-loader",
     "toml"
   ],
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "let4be",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KyleAMathews/toml-loader/issues"
+    "url": "https://github.com/let4be/toml-raw-loader/issues"
   },
-  "homepage": "https://github.com/KyleAMathews/toml-loader#readme",
+  "homepage": "https://github.com/let4be/toml-raw-loader#readme",
   "dependencies": {
     "toml": "^2.2.2"
   }
